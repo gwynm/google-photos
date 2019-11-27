@@ -137,7 +137,7 @@ $(document).ready(() => {
     transitionDuration: 1000,
     fullScreen: {autoStart: false},
     // Automatically advance after 3s to next photo.
-    slideShow: {autoStart: true, speed: 3000},
+    slideShow: {autoStart: true, speed: 6000},
     // Display the contents figcaption element as the caption of an image
     caption: function(instance, item) {
       return $(this).find('figcaption').html();
